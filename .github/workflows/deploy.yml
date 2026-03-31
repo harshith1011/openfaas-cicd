@@ -1,14 +1,13 @@
 name: CI Test
 
 on:
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
 jobs:
-test:
-runs-on: ubuntu-latest
-
-steps:
-  - name: Hello
-    run: echo "CI/CD working"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo "CI/CD working"
