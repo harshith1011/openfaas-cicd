@@ -9,8 +9,6 @@ jobs:
 test:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Hello
     run: echo "CI/CD working"
-```
